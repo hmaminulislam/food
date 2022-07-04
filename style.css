@@ -11,7 +11,6 @@ h1,h2,h3,h4,p {
     font-family: 'DM Sans', sans-serif;
 }
 .hero-section {
-    display: flex;
 }
 .top-bar {
     display: flex;
@@ -53,4 +52,54 @@ ul li {
     color: #F7A198;
     transform: .5s;
     cursor: pointer;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.hero-images {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-box {
+    flex-basis: 32.5%;
+    border-bottom: 2px solid orangered;
+    padding-bottom: 20px;
+}
+.box-img{
+    overflow: hidden;
+}
+.box-img img {
+    width: 100%;
+    transition: .5s;
+}
+.hero-box img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.hero-box p {
+    font-size: 10px;
+    color: #ff3720;
+}
+.hero-box h3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.hero-box h3 a:hover {
+    color: orangered;
+    transition: .5s;
+}
+.hero-box h3 {
+    line-height: 5px;
+}
+.hero-box small {
+    font-size: 13px;
+    color: #414141;
+}
+.box-content {
+    width: 90%;
+    padding: 20px;
 }
