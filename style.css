@@ -103,3 +103,59 @@ ul li {
     width: 90%;
     padding: 20px;
 }
+.browse-header {
+    text-align: center;
+    width: 200px;
+    background-color: orangered;
+    margin: auto;
+    margin-top: px;
+    padding: 15px 10px;
+}
+.browse-header h3 {
+    display: inline;
+}
+.browse-header i {
+    font-size: 21px;
+    margin-right: 8px;
+}
+#browse {
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overly {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8)
+}
+.browse-resipes {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.brose-item i {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    transition: .2s;
+}
+.brose-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 20px;
+    transition: .2s;
+}
+.brose-item:hover a {
+    color: orangered;
+    cursor: pointer;
+}
+.brose-item:hover i {
+    color: orangered;
+    cursor: pointer;
+}
