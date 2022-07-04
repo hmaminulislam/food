@@ -123,6 +123,7 @@ ul li {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 100px;
 }
 .overly {
     width: 100%;
@@ -158,4 +159,56 @@ ul li {
 .brose-item:hover i {
     color: orangered;
     cursor: pointer;
+}
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.about-item {
+    flex-basis: 31%;
+}
+.about-img img {
+    width: 100%;
+}
+.about-item img {
+    width: 100%;
+}
+.about-img-content {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.about-img-content a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000; 
+    transition: .1s;
+}
+.about-img-content a:hover{
+    color: orangered;
+}
+.about-img-content h3 {
+    line-height: 5px;
+}
+.about-img-content small{
+    color: orangered;
+    font-size: 11px;
+}
+.about-img-content p {
+    font-size: 13px;
+}
+.about-left, .about-right {
+    border: 1px solid #dbdbdbbe;
+}
+.about-self {
+    text-align: center;
+    margin-left: 25px;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+.about-self h2 {
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: #ffb662;
 }
