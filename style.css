@@ -261,3 +261,110 @@ ul li {
 .food-des p {
     margin-bottom: 30px;
 }
+.food-sidebar h3 {
+    text-align: center;
+    font-size: 18px;
+}
+.food-side-box {
+    display: flex;
+    justify-content: space-between;
+}
+.food-icon {
+    flex-basis: 30%;
+    text-align: center;
+    border: 1px solid #dbdbdbbe;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.food-icon i {
+    font-size: 26px;
+}
+.food-icon p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 1px;
+}
+.food-icon small {
+    font-size: 15px;
+}
+.newsletter h4 {
+    text-align: center;
+    font-size: 18px;
+}
+.newsletter p {
+    text-align: center;
+    line-height: 28px;
+    width: 280px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lora';
+    margin-top: 10px;
+    cursor: pointer;
+    display: block;
+}
+form {
+    padding: 0 18px;
+}
+.popular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.popular-picture{
+    flex-basis: 49%;
+    height: 175px;
+    margin-bottom: 7px;
+    overflow: hidden;
+}
+.popular-picture img {
+    width: 100%;
+    transition: .3s;
+    cursor: pointer;
+}
+.popular-recipie {
+    margin-top: 80px;
+}
+.popular-recipie h4 {
+    text-align: center;
+    font-size: 18px;
+}
+.popular-picture img:hover {
+    transform: scale(1.1);
+}
+.autum {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.autum-item {
+    flex-basis: 24%;
+    overflow: hidden;
+}
+.autum-item img {
+    width: 100%;
+    transition: .5s;
+    cursor: pointer;
+}
+.autum-item img:hover {
+    transform: translateY(-20px);
+}
